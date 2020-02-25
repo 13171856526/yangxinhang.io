@@ -1,0 +1,690 @@
+body {
+    background-color: #F7F3F7;
+}
+
+main {
+    height: 16rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+main .gengduo {
+    height: 1rem;
+    line-height: 1rem;
+}
+
+main .gengduo span:first-of-type {
+    font-size: .4rem;
+    font-weight: 600;
+}
+
+main .gengduo span:last-of-type {
+    float: right;
+    color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .gengduo span:last-of-type i {
+    width: .5rem;
+    height: .5rem;
+    background: url(../icon/xueyuan-dayuhao.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+
+
+/* 商学院 */
+.ma-school {
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: .7rem;
+    background-color: #fff;
+}
+
+/* 公司资讯 */
+.zixun {
+    /* height: 1rem; */
+    background: #fff;
+    margin-bottom: .3rem;
+    padding: 0 .3rem;
+}
+
+/* bottom */
+.zixun .zixun-bottom {
+    width: 100%;
+    height: 6rem;
+    /* white-space: nowrap; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* // 一定要加上overflow-y：hidden，不然还可以上下滑动
+    // 重点就是white-space 和 overflow-x的设置，
+    //white-space是为了不折行
+    // overflow-x： scroll是为了出现滚动轴 */
+    display: flex;
+    /* align-items: center; */
+    box-sizing: border-box;
+}
+
+.zixun .zixun-bottom .zixun-bottom-box {
+    margin-right: .3rem;
+}
+
+.zixun .zixun-bottom .zixun-bottom-box>div:first-of-type {
+    width: 6rem;
+    height: 4rem;
+    background: url(../icon/xueyuan-zixun1.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+.zixun .zixun-bottom .zixun-bottom-box>div:nth-child(2) {
+    width: 6rem;
+    height: 1rem;
+}
+
+.zixun .zixun-bottom .zixun-bottom-box>div:nth-child(2) span {
+    font-weight: 600;
+    font-size: .4rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden
+}
+
+.zixun .zixun-bottom .zixun-bottom-box>div:last-of-type {
+    color: brown;
+}
+
+
+/* 新手必看 */
+.ma-novice {
+    background: white;
+    padding: 0 .3rem;
+
+}
+
+
+.ma-novice .ma-must {
+    margin-bottom: .3rem;
+    padding-bottom: .5rem;
+}
+
+.ma-must .ma-must-top {
+    height: 1rem;
+    line-height: 1rem;
+    padding: .3rem;
+}
+
+.ma-must .ma-must-top h6 {
+    display: inline;
+    font-size: .46666rem;
+    /* font-weight: 600; */
+}
+
+.ma-must .ma-must-top span i {
+    width: .5rem;
+    height: .5rem;
+    /* border: 1px solid yellow; */
+    display: block;
+    background: url(../icon/xueyuan-dayuhao.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem -.022222rem;
+}
+
+
+.ma-must .ma-must-bottom {
+    width: 100%;
+    height: 4.4rem;
+    /* white-space: nowrap; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* // 一定要加上overflow-y：hidden，不然还可以上下滑动
+    // 重点就是white-space 和 overflow-x的设置，
+    //white-space是为了不折行
+    // overflow-x： scroll是为了出现滚动轴 */
+    display: flex;
+    /* align-items: center; */
+    box-sizing: border-box;
+}
+
+.ma-must .ma-must-bottom .ma-must-bottom-box {
+    margin-right: .4rem;
+}
+
+.ma-must .ma-must-bottom .ma-must-bottom-box>div:first-of-type {
+    box-sizing: border-box;
+    width: 3.9rem;
+    height: 2.77rem;
+}
+
+.ma-must .ma-must-bottom .ma-must-bottom-box .ma-must-bottom-img1 {
+    background: url(../icon/xueyuan-xinshou-1.png) no-repeat;
+    background-size: 100%;
+}
+
+.ma-must .ma-must-bottom .ma-must-bottom-box .ma-must-bottom-img2 {
+    background: url(../icon/xueyuan-xinshou-2.png) no-repeat;
+    background-size: 100%;
+}
+
+.ma-must .ma-must-bottom .ma-must-bottom-box .ma-must-bottom-img3 {
+    background: url(../icon/xueyuan-xinshou-1.png) no-repeat;
+    background-size: 100%;
+}
+
+.ma-must .ma-must-bottom .ma-must-bottom-box .ma-must-bottom-box2 {
+    display: block;
+}
+
+.ma-must .ma-must-bottom .ma-must-bottom-box .ma-must-bottom-box2 span {
+    font-weight: 600;
+    font-size: .4rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden
+}
+
+.ma-must .ma-must-bottom .ma-must-bottom-box .ma-must-bottom-box3 {
+    display: block;
+}
+
+/* 新手必看结束 */
+
+
+/* 听-花生头条开始 */
+.listen {
+    background-color: #fff;
+    /* height: auto; */
+    padding: 0 .3rem;
+    margin-bottom: .3rem;
+}
+
+.listen .listen-bottom {
+    height: 2rem;
+}
+
+.listen .listen-bottom>div:first-of-type {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: .4rem;
+    height: 1rem;
+}
+
+.listen .listen-bottom>div:first-of-type i {
+    width: .5rem;
+    height: .5rem;
+    margin: auto .2rem auto 0;
+    background: url(../icon/xueyuan-bofanganniu.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+.listen .listen-bottom>div:last-of-type {
+    display: flex;
+    align-items: center;
+    /* font-size: .4rem; */
+    height: 1rem;
+    color: #cccccc;
+    margin-left: .7rem;
+}
+
+.listen .listen-bottom>div:last-of-type i {
+    width: .5rem;
+    height: .5rem;
+    margin: auto .2rem auto 0;
+    background: url(../icon/xueyuan-erji.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+/* 听-花生头条结束 */
+
+
+/* 微信使用技巧*/
+.chengzhang {
+    background: #fff;
+    padding: .3rem;
+    margin-bottom: .3rem;
+}
+
+/* 微信使用技巧 头部 */
+.chengzhang .chengzhang-gengduo {
+    height: 1rem;
+    line-height: 1rem;
+}
+
+.chengzhang .chengzhang-gengduo>div:first-of-type {
+    float: left;
+    font-size: .4rem;
+    font-weight: 600;
+    margin-right: .1rem;
+}
+
+.chengzhang .chengzhang-gengduo>div:nth-child(2) {
+    display: inline;
+    color: #ccc;
+    font-size: .1rem;
+}
+
+.chengzhang .chengzhang-gengduo>div:nth-child(2) span:first-of-type {
+    font-size: .6rem;
+    color: coral;
+}
+
+.chengzhang .chengzhang-gengduo>div:nth-child(2) span:last-of-type {
+    font-size: .5rem;
+    color: coral;
+}
+
+.chengzhang .chengzhang-gengduo>div:last-of-type {
+    float: right;
+    width: 1.3rem;
+    height: 1rem;
+}
+
+.chengzhang .chengzhang-gengduo>div:last-of-type a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chengzhang .chengzhang-gengduo>div:last-of-type a i {
+    display: block;
+    width: .5rem;
+    height: .5rem;
+    background: url(../icon/xueyuan-dayuhao.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+/* 微信技巧底部 */
+
+.chengzhang .imgbufen {
+    width: 100%;
+    height: auto;
+    /* white-space: nowrap; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* // 一定要加上overflow-y：hidden，不然还可以上下滑动
+    // 重点就是white-space 和 overflow-x的设置，
+    //white-space是为了不折行
+    // overflow-x： scroll是为了出现滚动轴 */
+    display: flex;
+    /* align-items: center; */
+    box-sizing: border-box;
+}
+
+.chengzhang .imgbufen .imgbufen-box {
+    margin-right: .3rem;
+}
+
+.chengzhang .imgbufen .imgbufen-box>div:first-of-type {
+    width: 6rem;
+    height: 4rem;
+    background: url(../icon/xueyuan-jiqiao-1.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: 0rem 0rem;
+}
+
+.chengzhang .imgbufen .imgbufen-box>div:nth-child(2) {
+    width: 6rem;
+    height: 1rem;
+}
+
+.chengzhang .imgbufen .imgbufen-box>div:nth-child(2) span {
+    font-weight: 600;
+    font-size: .38888rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.chengzhang .imgbufen .imgbufen-box>div:last-of-type {
+    color: brown;
+}
+
+
+/* 社区运营干货 500 开始*/
+
+
+/* 微信技巧底部 */
+
+.chengzhang .shequn {
+    width: 100%;
+    height: auto;
+    /* white-space: nowrap; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* // 一定要加上overflow-y：hidden，不然还可以上下滑动
+    // 重点就是white-space 和 overflow-x的设置，
+    //white-space是为了不折行
+    // overflow-x： scroll是为了出现滚动轴 */
+    display: flex;
+    /* align-items: center; */
+    box-sizing: border-box;
+}
+
+.chengzhang .shequn .shequn-box {
+    margin-right: .3rem;
+    width: 4rem;
+}
+
+.chengzhang .shequn .shequn-box>div:first-of-type {
+    width: 100%;
+    height: 2.66666rem;
+}
+
+.chengzhang .shequn .shequn-box .shequn1 {
+    background: url(../icon/xueyuan-shequn-1.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: 0rem 0rem;
+}
+
+.chengzhang .shequn .shequn-box .shequn2 {
+    background: url(../icon/xueyuan-shequn-2.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: 0rem 0rem;
+}
+
+
+.chengzhang .shequn .shequn-box>div:nth-child(2) {
+    width: 3.8888rem;
+    height: 1rem;
+}
+
+.chengzhang .shequn .shequn-box>div:nth-child(2) span {
+    font-weight: 600;
+    font-size: .28888rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.chengzhang .shequn .shequn-box>div:last-of-type {
+    width: 100%;
+    color: brown;
+}
+
+/*社区运营干货 结束  */
+
+/* 直播  Live broadcast  */
+
+.broadcast {
+    background-color: #fff;
+    padding: .3rem;
+    height: auto;
+    margin-bottom: .3rem;
+}
+
+.broadcast .b-top {
+    height: 1rem;
+    line-height: 1rem;
+}
+
+.broadcast .b-top .b-top-box1 {
+    display: inline-block;
+    color: black;
+    font-weight: 600;
+    font-size: .5rem;
+}
+
+.broadcast .b-top .b-top-box2 {
+    display: inline-block;
+    /* color:; */
+}
+
+.broadcast .b-top .b-top-box2 span {
+    color: blue;
+}
+
+.broadcast .b-top .b-top-box3 {
+    float: right;
+}
+
+.broadcast .b-bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.broadcast .b-bottom .b-bottom-box1 {
+    width: 100%;
+    height: 4rem;
+
+    background: url(../icon/xueyuan-zhibo-1.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+.broadcast .b-bottom .b-bottom-box2 {
+    width: 64%;
+}
+
+.broadcast .b-bottom .b-bottom-box2>div:first-of-type {
+    font-weight: 600;
+    margin: .2rem 0;
+    font-size: .4rem;
+    margin-top: .2rem;
+    margin-bottom: .6rem;
+
+}
+
+.broadcast .b-bottom .b-bottom-box2 .b-bottom-box2-name>i {
+    width: .5rem;
+    height: .5rem;
+    background: url(../icon/xueyuan-zhibo1.png) no-repeat;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0 .1rem;
+}
+
+.broadcast .b-bottom .b-bottom-box2 .b-bottom-box2-name>i:first-of-type {
+    background-size: 600%;
+    background-position: 0rem 0rem;
+}
+
+.broadcast .b-bottom .b-bottom-box2 .b-bottom-box2-name>i:last-of-type {
+    background-size: 600%;
+    background-position: -2.4rem 0rem;
+}
+
+.broadcast .b-bottom .b-bottom-box3 {
+    width: 35%;
+    height: auto;
+}
+
+.broadcast .b-bottom .b-bottom-box3>div:first-of-type {
+    background: #F7F3F7;
+    padding: .1rem;
+    display: inline-block;
+    margin: .2rem 0 .5rem 47%;
+}
+
+.broadcast .b-bottom .b-bottom-box3>div:last-of-type {
+    display: inline-block;
+    margin: 0 0 0 47%;
+}
+
+/* 直播结束 */
+
+
+/* 速麦淘专栏  开始 */
+
+.maitao .maitao-bottom {
+    width: 100%;
+    height: auto;
+    /* white-space: nowrap; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* // 一定要加上overflow-y：hidden，不然还可以上下滑动
+    // 重点就是white-space 和 overflow-x的设置，
+    //white-space是为了不折行
+    // overflow-x： scroll是为了出现滚动轴 */
+    display: flex;
+    /* align-items: center; */
+    box-sizing: border-box;
+}
+
+.maitao .maitao-bottom .maitao-box {
+    margin-right: .3rem;
+}
+
+.maitao .maitao-bottom .maitao-box>div:first-of-type {
+    width: 6rem;
+
+    height: 4.3rem;
+}
+
+.maitao .maitao-bottom .maitao-box>div:nth-child(2) {
+    width: 100%;
+    height: 1rem;
+}
+
+.maitao .maitao-bottom .maitao-box>div:nth-child(2) span {
+    font-weight: 600;
+    font-size: .28888rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.maitao .maitao-bottom .maitao-box>div:last-of-type {
+    width: 100%;
+    color: brown;
+}
+
+
+.maitao .maitao-bottom>div .sumaitao1 {
+    background: url(../icon/xueyuan-sumaitao.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+.maitao .maitao-bottom>div .sumaitao2 {
+    background: url(../icon/xueyuan-sumaitao.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+.maitao .maitao-bottom>div .sumaitao3 {
+    background: url(../icon/xueyuan-sumaitao.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+/* 速麦淘专栏  结束 */
+
+
+
+/*花生直邮专栏  开始 */
+.zhiyou .shequn .shequn-box>div:first-of-type {
+    width: 4rem;
+    /* height: ; */
+}
+
+.zhiyou .maitao-bottom>div .zhiyou1 {
+    background: url(../icon/xueyuan-zhiyou-1.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+.zhiyou .maitao-bottom>div .zhiyou2 {
+    background: url(../icon/xueyuan-zhiyou-1.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+.zhiyou .maitao-bottom>div .zhiyou3 {
+    background: url(../icon/xueyuan-zhiyou-1.png) no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+
+
+
+/*花生直邮专栏  结束 */
+
+/* 底部 */
+#footer {
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    padding: 0;
+    width: 100%;
+    height: 1.30666667rem;
+    background-color: #fff;
+    position: fixed;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+}
+
+
+#footer a {
+    -webkit-box-flex: 1;
+    flex: 1;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    color: #999;
+}
+
+#footer a span {
+    display: block;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0.13333333rem auto 0.04rem;
+}
+
+#footer a.active {
+    color: #EF3C39;
+
+}
+
+#footer a.active span {
+    background-image: url(../img/icon/footer-02.png);
+}
+
+#footer .home span {
+    width: 0.72rem;
+    height: 0.64rem;
+    background-image: url(../img/icon/footer-06.png);
+}
+
+#footer .destination span {
+    width: 0.64rem;
+    height: 0.65333333rem;
+    background-image: url(../img/icon/footer-07.png);
+}
+
+#footer .history span {
+    width: 0.70666667rem;
+    height: 0.66666667rem;
+    background-image: url(../img/icon/footer-08.png);
+}
+#footer .huafen span {
+    width: 0.66666667rem;
+    height: 0.65333333rem;
+    background-image: url(../img/icon/footer-09.png);
+}
+
+#footer .my span {
+    width: 0.66666667rem;
+    height: 0.65333333rem;
+    background-image: url(../img/icon/footer-10.png);
+}
+
+#footer p {
+    font-size: 0.30666667rem;
+    font-weight: 600;
+}
+

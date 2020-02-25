@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 3.555vw;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+
+
+/*  tooter*/
+.fenleitoubu {
+    margin-top: .5vw;
+    height: 13vw;
+    line-height: 13vw;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid red;
+}
+
+.fenleitoubu .footer-a {
+    display:inline-block;
+    width: 13vw;
+    height: 100%;
+    margin-left: 6vw;
+}
+.fenleitoubu .footer-a .footer-a-box{
+    display: inline-block;
+    width: 14vw;
+    height: 100%;
+    background: url(../bg/fenlei-dayuhao.png) no-repeat;
+    background-position: 0vw 1vw;
+    background-size: 100%;
+
+}
+.fenleitoubu>div{
+    margin: 0 auto;
+    font-size: 4.5555vw;
+}
+
+/* 头部结束 */
+
+.left {
+    border-right: 1px solid red;
+    box-sizing: border-box;
+    width:25vw;
+    height: 163vw;
+    text-align: center;
+    float: left;
+}
+
+.left>ul {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.left>ul>li {
+    padding: 5vw auto;
+    display: block;
+    width: 70%;
+    height: 7.555vw;
+    line-height: 7.555vw;
+    margin: 5vw auto;
+    font-size: 4vw;
+    border-radius: 50vw;
+}
+.left>ul>li.active {
+    background: red;
+    color: #fff;
+}
+
+/* 左侧结束 */
+/* 主体开始 */
+.main {
+    display: flex;
+    width: auto;
+    height: 100%;
+    /* float: left; */
+
+}
+
+.main>div:first-of-type {
+    flex: 1;
+}
+
+.main>div:last-of-type {
+    flex: 3;
+}
+
+
+
+/* 右侧开始 */
+
+
+
+/* 母婴 */
+ .right-muying {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+
+    /* display: none; */
+}
+
+ .right-muying>a {
+    display: inline-block;
+    width: 24vw;
+    text-align: center;
+    color: #666666;
+    font-size: 3.555vw;
+}
+
+ .right-muying>a>i {
+    width: 100%;
+    height: 15vw;
+    display: inline-block;
+    margin: 0 auto;
+    background: url(../bg/fl-my.png) no-repeat;
+    background-position: 2.55555vw 0vw;
+    background-size: 300%;
+}
+
+/* 食品 */
+ .right-shipin {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    display: none;
+}
+
+ .right-shipin>a {
+    display: inline-block;
+    width: 24vw;
+    text-align: center;
+    color: #666666;
+    font-size: 3.555vw;
+}
+
+ .right-shipin>a>i {
+    width: 100%;
+    height: 15vw;
+    display: inline-block;
+    margin: 0 auto;
+    background: url(../bg/fl-my.png) no-repeat;
+    background-position: 2.55555vw 0vw;
+    background-size: 300%;
+}
+
+/* 女装 */
+
+ .right-nvzhuang {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    display: none;
+}
+
+ .right-nvzhuang>a {
+    display: inline-block;
+    width: 24vw;
+    text-align: center;
+    color: #666666;
+    font-size: 3.555vw;
+}
+
+ .right-nvzhuang>a>i {
+    width: 100%;
+    height: 15vw;
+    display: inline-block;
+    margin: 0 auto;
+    background: url(../bg/fl-my.png) no-repeat;
+    background-position: 2.55555vw 0vw;
+    background-size: 300%;
+}
+.main>div{
+    display: none ;
+}
+
+.main > div.active{
+    display: block;
+}
